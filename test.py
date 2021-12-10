@@ -3,13 +3,39 @@ from Phidget22.Phidget import *
 from Phidget22.Devices.Log import *
 from Phidget22.LogLevel import *
 from Phidget22.Devices.VoltageRatioInput import *
+import numpy as np
 import traceback
 import time
 
-#Declare any event handlers here. These will be called every time the associated event occurs.
+#Total voltage class
+class totalVoltage:
+	V1 = 0
+	V2 = 0
+	V3 = 0
+	V4 = 0
 
-def onVoltageRatioChange(self, voltageRatio):
+	def totalVoltageGetter(self):
+		voltages = [self.V1, self.V2, self.V3, self.V4]
+		print("Total voltage is", np.sum(voltages))
+
+#Total voltage variable that utilizes the totalVoltage class to store voltage inputs
+totalVoltageRatio = totalVoltage()
+
+#Declare any event handlers here. These will be called every time the associated event occurs.
+def onVoltageRatioChange(self, voltageRatio, totalVoltageRatio=totalVoltageRatio):
 	print("VoltageRatio [" + str(self.getChannel()) + "]: " + str(voltageRatio))
+	if self.getChannel() == 0:
+		totalVoltageRatio.V1 = voltageRatio
+	elif self.getChannel() == 1:
+		totalVoltageRatio.V2 = voltageRatio
+	elif self.getChannel() == 3:
+		totalVoltageRatio.V3 = voltageRatio
+	elif self.getChannel() == 4:
+		totalVoltageRatio.V4 = voltageRatio
+	else:
+		pass
+
+	print(totalVoltageRatio.totalVoltageGetter())
 
 def onAttach(self):
 	print("Attach [" + str(self.getChannel()) + "]!")
