@@ -9,14 +9,16 @@ import time
 
 #Total voltage class
 class totalVoltage:
-	V1 = 0
-	V2 = 0
-	V3 = 0
-	V4 = 0
+	calibrationFactor = 1 # replace this number with the calibration factor you manage to get
+	V1 = 0 * calibrationFactor
+	V2 = 0 * calibrationFactor
+	V3 = 0 * calibrationFactor
+	V4 = 0 * calibrationFactor
 
 	def totalVoltageGetter(self):
 		voltages = [self.V1, self.V2, self.V3, self.V4]
-		print("Total voltage is", np.sum(voltages))
+		forces = self.calibrationFactor * np.array(voltages)
+		print("Total voltage is", np.sum(forces))
 
 #Total voltage variable that utilizes the totalVoltage class to store voltage inputs
 totalVoltageRatio = totalVoltage()
