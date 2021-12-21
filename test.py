@@ -10,10 +10,10 @@ import time
 #Total voltage class
 class totalVoltage:
 	calibrationFactor = 1 # replace this number with the calibration factor you manage to get
-	V1 = 0 * calibrationFactor
-	V2 = 0 * calibrationFactor
-	V3 = 0 * calibrationFactor
-	V4 = 0 * calibrationFactor
+	V1 = 0
+	V2 = 0
+	V3 = 0
+	V4 = 0
 
 	def totalVoltageGetter(self):
 		voltages = [self.V1, self.V2, self.V3, self.V4]
