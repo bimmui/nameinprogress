@@ -360,3 +360,132 @@
 2021-12-07T17:31:36.311  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: USB read thread started: 0x00004c18
 2021-12-07T17:31:38.053  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x2b4
 2021-12-07T17:31:38.053  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T13:24:22.602  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T13:24:22.606  <Info> phidget22usb[AttachUSBDevice()] : Attaching HID Phidget | Path: \\?\hid#vid_06c2&pid_003b#8&3a383275&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030} | PDO Name: \Device\000000bc
+2022-01-03T13:24:22.633  <Info> phidget22[deviceAttach()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739
+2022-01-03T13:24:22.634  <Info> phidget22usb[PhidgetUSBOpenHandle()] : Opened USB Device: 0x15c
+2022-01-03T13:24:22.634  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: USB read thread started: 0x00001a1c
+2022-01-03T13:24:25.843  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x15c
+2022-01-03T13:24:25.843  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T13:25:31.570  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T13:25:31.572  <Info> phidget22usb[AttachUSBDevice()] : Attaching HID Phidget | Path: \\?\hid#vid_06c2&pid_003b#8&3a383275&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030} | PDO Name: \Device\000000bc
+2022-01-03T13:25:31.597  <Info> phidget22[deviceAttach()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739
+2022-01-03T13:25:31.598  <Info> phidget22usb[PhidgetUSBOpenHandle()] : Opened USB Device: 0x2e4
+2022-01-03T13:25:31.598  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: USB read thread started: 0x00002304
+2022-01-03T13:25:39.938  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x2e4
+2022-01-03T13:25:39.938  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T13:33:13.697  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T13:33:13.699  <Info> phidget22usb[AttachUSBDevice()] : Attaching HID Phidget | Path: \\?\hid#vid_06c2&pid_003b#8&3a383275&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030} | PDO Name: \Device\000000bc
+2022-01-03T13:33:13.725  <Info> phidget22[deviceAttach()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739
+2022-01-03T13:33:13.725  <Info> phidget22usb[PhidgetUSBOpenHandle()] : Opened USB Device: 0x2fc
+2022-01-03T13:33:13.725  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: USB read thread started: 0x000034bc
+2022-01-03T13:33:17.759  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x2fc
+2022-01-03T13:33:17.759  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T13:33:47.687  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T13:33:47.688  <Info> phidget22usb[AttachUSBDevice()] : Attaching HID Phidget | Path: \\?\hid#vid_06c2&pid_003b#8&3a383275&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030} | PDO Name: \Device\000000bc
+2022-01-03T13:33:47.714  <Info> phidget22[deviceAttach()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739
+2022-01-03T13:33:47.715  <Info> phidget22usb[PhidgetUSBOpenHandle()] : Opened USB Device: 0x310
+2022-01-03T13:33:47.715  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: USB read thread started: 0x000028a0
+2022-01-03T13:33:50.253  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x310
+2022-01-03T13:33:50.253  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T17:10:43.549  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T17:14:45.487  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T17:14:45.487  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:14:45.487  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:14:45.487  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:14:45.487  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:17:23.809  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x2e0
+2022-01-03T17:17:23.809  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T17:18:49.956  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T17:18:49.956  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:18:49.956  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:18:49.956  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:18:49.956  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:18:59.820  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x304
+2022-01-03T17:18:59.820  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T17:29:15.743  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T17:29:15.743  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:29:15.743  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:29:15.743  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:29:15.743  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:29:41.353  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x2f0
+2022-01-03T17:29:41.353  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T17:36:12.872  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T17:36:12.872  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:36:12.872  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:36:12.872  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:36:12.872  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:36:17.902  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x2f4
+2022-01-03T17:36:17.902  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T17:36:17.936  <Info> phidget22[deviceDetach()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739
+2022-01-03T17:41:59.668  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T17:41:59.668  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:41:59.668  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:41:59.668  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:41:59.668  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:42:06.745  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x2f0
+2022-01-03T17:42:06.745  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T17:42:06.813  <Info> phidget22[deviceDetach()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739
+2022-01-03T17:46:36.021  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T17:46:36.021  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:46:36.021  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:46:36.021  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:46:36.021  <Warn> phidget22[Phidget_open_internal()] : Open was called on an already opened Phidget handle.
+2022-01-03T17:46:37.898  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x308
+2022-01-03T17:46:37.898  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
+2022-01-03T17:46:37.978  <Info> phidget22[deviceDetach()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739
+2022-01-03T17:46:58.334  <Info> phidget22 : 
+	******************************  Logging Enabled  ******************************
+	* Phidget22 - Version 1.7 - Built Oct  5 2021 13:14:14                        *
+	* Release 1.7.20211005 - Windows (64-bit)                                     *
+	*******************************************************************************
+2022-01-03T17:46:58.335  <Info> phidget22usb[AttachUSBDevice()] : Attaching HID Phidget | Path: \\?\hid#vid_06c2&pid_003b#8&3a383275&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030} | PDO Name: \Device\000000bc
+2022-01-03T17:46:58.361  <Info> phidget22[deviceAttach()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739
+2022-01-03T17:46:58.362  <Info> phidget22usb[PhidgetUSBOpenHandle()] : Opened USB Device: 0x2dc
+2022-01-03T17:46:58.362  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: USB read thread started: 0x00004060
+2022-01-03T17:47:21.064  <Info> phidget22usb[PhidgetUSBCloseHandle()] : Closing USB Device: 0x2dc
+2022-01-03T17:47:21.064  <Info> phidget22[PhidgetUSBReadThreadFunction()] : 1046 (PhidgetBridge 4-Input) v102 S/N:568739: ReadThread exiting normally (signaled by Phidget_close)
