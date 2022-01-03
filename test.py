@@ -98,7 +98,7 @@ class Loadcells:
 
   
 
-#Total voltage object that utilizes the totalVoltage class to store voltage inputs
+#object that utilizes the Loadcells class to store voltage inputs, calibration factor, and other class dependent variables
 loadcellReadings = Loadcells()
 
 #Declare any event handlers here. These will be called every time the associated event occurs.
