@@ -92,7 +92,7 @@ class Loadcells:
 	def totalForce(self):
 		voltages = [self.V1, self.V2, self.V3, self.V4]
 		np_voltages = np.array(voltages)
-		force = (np.sum(np_voltages) - self.R0_num) * self.Mcal
+		force = (np.sum(np_voltages) - self.R0_num) / self.Mcal
 		print("Total force is", force)
 
 
